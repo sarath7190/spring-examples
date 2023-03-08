@@ -18,7 +18,7 @@ public class WebController {
     private String name;
 
     @GetMapping
-    public String lutation() {
+    public String salutation() {
         return "Hello " + Optional.ofNullable(name).orElse("world") + '!';
     }
 
